@@ -25,10 +25,6 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".view.PeopleDetailActivity"
-            android:parentActivityName=".view.PeopleActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

@@ -24,7 +24,6 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.example.jhordan.people_mvvm.model.People;
-import com.example.jhordan.people_mvvm.view.PeopleDetailActivity;
 
 
 public class ItemPeopleViewModel extends BaseObservable {
@@ -60,7 +59,7 @@ public class ItemPeopleViewModel extends BaseObservable {
   }
 
   public void onItemClick(View view) {
-    context.startActivity(PeopleDetailActivity.launchDetail(view.getContext(), people));
+   // context.startActivity(PeopleDetailActivity.launchDetail(view.getContext(), people));
   }
 
   public void setPeople(People people) {
